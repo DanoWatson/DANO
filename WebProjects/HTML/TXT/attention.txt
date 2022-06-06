@@ -1,5 +1,6 @@
+git status           (查看文件管理状态)
 git add .            (添加到Git仓库管理)
 git commit -m "XXX"  (提交时的信息)
 git push             (推送到云端仓库)
 
-这三个命令都在DANO目录下通过git bash执行
+这四个命令都在DANO目录下通过git bash执行
