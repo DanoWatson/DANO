@@ -137,6 +137,37 @@ title="网页元素链接" height="30" width="30" border="10"/></a>
 空&nbsp;&nbsp;&nbsp;格<br />
 大&nbsp;&gt;&nbsp;于<br />
 小&nbsp;&lt;&nbsp;于<br />
+<h3>表格标签（双标签）</h3>
+<!--
+<table>···<table>是用于定义表格的标签
+<tr>···<tr>是用于定义表格中的行，必须嵌套在<table>···<table>标签中
+<td>···<td>是用于定义表格中的单元格，必须嵌套在<tr>···<tr>标签中
+td 即 table data(表格数据) ,即数据单元格的内容
+-->
+<table>
+    <tr><td>姓名</td> <td>性别</td> <td>年龄</td></tr>
+    <tr><td>张三</td> <td>男</td> <td>18</td></tr>
+    <tr><td>李四</td> <td>男</td> <td>19</td></tr>
+</table>
+<!--表头单元格 table head 常用于第一行，突出重要性，居中加粗显示-->
+<!--表格属性 (这里浅了解，一般是用CSS来搞)
+1. align（对齐） left（默认）靠浏览器左侧对齐，center靠浏览器中间对齐，right靠浏览器右侧对齐
+2. border   边框粗细 默认""没有标签
+3. cellpadding 单元格内的文字和其所在单元格边框的距离 默认1像素
+4. cellspacing  单元格与单元格之间的距离 默认2像素
+5. width    height
+-->
+<table align="center"
+border="1"
+cellpadding="15"
+cellspacing="0"
+width="300"
+height="200">
+    <tr><th>姓名</th> <th>性别</th> <th>年龄</th></tr>
+    <tr><td>张三</td> <td>男</td> <td>18</td></tr>
+    <tr><td>李四</td> <td>男</td> <td>19</td></tr>
+</table>
+
 </body>
 </html>
 
